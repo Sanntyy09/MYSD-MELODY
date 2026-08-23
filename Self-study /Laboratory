@@ -1,1 +1,57 @@
+ESCUELA COLOMBIANA DE INGENIERÍA MODELOS Y SERVICIOS DE DATOS
+Diseño Conceptual General. SQL-DQL Basico
+2026-2 — Laboratorio 1/6
+OBJETIVO
+Evidenciar el logro de los siguientes resultados de aprendizaje:
+1.	Hacer ingeniería inversa de una base de datos relacional: modelo lógico y conceptual.
+2.	Proponer consultas gerenciales y operativas para una organización
+3.	Implementar consultas (simples o anidadas) en cálculo, algebra y SQL
+ENTREGA
+Incluyan en un archivo .zip los archivos correspondientes al laboratorio. El nombre debe ser los apellidos de los dos miembros del equipo ordenados alfabéticamente y separados por un guion. (CasallasC-DuarteJ) Publiquen el avance al final de la sesión y la versión definitiva en la fecha indicada, en los espacios correspondientes.
+La base de datos que vamos a trabajar es Musicians, una de las evaluaciones propuestas en el tutorial SQLZoo.net, en el motor MySQL (sage).
+Consulten la organización del archivo de diseño que se presenta como ejemplo en .
+PARTE I. Conociendo la organización
+A	Revisando el contenido
+[En lab01.pdf]
+Usen Easy questions
+1.	¿Cuántos músicos tenemos? ¿Cuántos son compositores? ¿Cuántos son interpretes?
+2.	¿Cuáles bandas tenemos? ¿Cuántas bandas de cada tipo?
+3.	¿Cuál es la fecha de la composición más antigua? ¿y de la más reciente?
+4.	¿Cuántos conciertos ha ofrecido en cada uno de los años? (Ordenado de mayor a menor por año)
+5.	¿Cuántas veces se han interpretado las canciones que se han interpretado más de una vez?
+6.	Propongan una pregunta y respóndanla
+B	Definiendo el contexto
+[En lab01.pdf musicians .astah]
+Misión. ¿Cuál creen que es la misión de la organización? 1 Servicios. ¿Qué servicios ofrece a sus clientes?
+Usuarios. ¿Cuáles son tres posibles usuarios de esta información? ¿Qué responsabilidades asumen en la organización? 2
+PARTE II. Diseñando. Ingeniería reversa
+[En musicians .astah]
+(ContenidoBaseDatos + ModeloEnSQLZoo → Modelo lógico → Modelo conceptual)
+1.	Realicen el modelo lógico mínimo. 3 Inicien con el modelo propuesto, valídenlo con la base de datos e incluyan las restricciones de PK, FK, UK.
+2.	Realicen el diagrama de conceptos sin atributos. 4
+ 
+1
+Consulten misiones de organizaciones reconocidas. 2
+En el diseño creen un diagrama de casos de uso (musicians/0. General/ ConsultasGerenciales). Incluyan los actores y para cada uno de ellos sus responsabilidades, en la descripción 3
+Realicen el diagrama en cualquier editor. En el diseño creen un diagrama de clases (musicians/0. General/ Logico) e importen el gráfico correspondiente. 4
+En el diseño creen un diagrama de clases (musicians/0. General/ Conceptos) Configuren la vista del modelo para que únicamente sea visible la zona con el nombre del componente.
+1
+PARTE III. Implementando
+[En lab01.pdf]
+1.	Implementen las consultas propuestas en Easy questions en álgebra, cálculo y SQL.
+2.	Implementen las consultas Medium questions en SQL
+PARTE IV. Diseñando e implementando consultas
+[En lab01.pdf musicians .astah]
+1.	Considerando la misión propuesta (si lo requieren redefínanla) , definan e implementen la consulta más adecuada para que la organización conozca que tan bien está cumpliendo su misión. Justifíquenla como la mejor consulta. 5
+2.	Propongan una pregunta, orientada a validar el logro en el cumplimiento de la misión, que no se pueda contestar actualmente. ¿Que cambios se deberían incluir en el modelo para poder responderla? 6
+3.	Considerando uno de los tres usuarios detectados anteriormente, diseñen e implemente una consulta que le de información útil para cumplir con sus responsabilidades o satisfacer una necesidad. 7
+Para 1 y 3: [Ejecuten la consulta SQL en SQLZoo.net en el lugar indicado. Escriban las consultas SQL y las respuestas en lab01.pdf. Si no lograron escribir alguna sentencia indiquen el punto de problema.]
+RETROSPECTIVA
+1.	¿Cuál fue el tiempo total invertido en el laboratorio por cada uno de ustedes? (Horas)
+2.	¿Cuál es el estado actual del laboratorio? ¿Por qué?
+3.	Considerando las prácticas XP del laboratorio, ¿cuál fue la más útil? ¿por qué?
+4.	¿Cuál consideran fue el mayor logro? ¿Por qué?
+5.	¿Cuál consideran que fue el mayor problema técnico? ¿Qué hicieron para resolverlo?
+6.	¿Qué hicieron bien como equipo? ¿Qué se comprometen a hacer para mejorar los resultados?
+7.	¿Qué referencias usaron? ¿Cuál fue la más útil? Incluyan citas con estándares adecuados.
 
