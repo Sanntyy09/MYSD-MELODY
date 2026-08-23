@@ -58,7 +58,7 @@ El laboratorio se divide en cuatro partes principales y una retrospectiva:
 
 | # | Pregunta | Respuesta |
 |---|---|---|
-| **1** | **Tiempo total invertido por cada integrante (Horas)** | • Integrante 1: X horas<br>• Integrante 2: X horas |
+| **1** | **Tiempo total invertido por cada integrante (Horas)** | • Integrante 1: 20 |
 | **2** | **Estado actual del laboratorio y por qué** | [Completado / En desarrollo]. Se completaron las consultas y el modelado en Astah. |
 | **3** | **Práctica XP más útil y por qué** | **Pair Programming:** Nos permitió validar las consultas en SQLZoo y diseñar el modelo lógico en Astah evitando errores de sintaxis. |
 | **4** | **Mayor logro y por qué** | Mapear correctamente la estructura de la BD *Musicians* mediante ingeniería inversa hacia el modelo conceptual. |
