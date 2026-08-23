@@ -9,8 +9,7 @@
 
 ## 👨‍💻 Integrantes del Equipo
 
-* **Integrante 1:** Apellido, Nombre
-* **Integrante 2:** Apellido, Nombre  
+* **Integrante 1:** Echeverria Santiago  
 > **Nombre del archivo comprimido de entrega:** `Apellido1-Apellido2.zip`
 
 ---
